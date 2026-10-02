@@ -1,0 +1,221 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Portion of Webpage */
+.header{
+    /* height: 510px; */
+    padding-bottom: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    flex-grow: 1;
+}
+
+.top-header{
+    width: 90%;
+    max-width: 1275px;
+    margin: 18px 0px 110px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.bottom-header{
+    width: 90%;
+    max-width: 1275px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-header-txt{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+
+.main-header-txt{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-sub-txt{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.sign-up-header{
+    width: 105px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 4px 22px;
+    margin-top: 10px;
+}
+
+.header img{
+    width: 450px;
+    height: 250px;
+    border: 2px;
+    border-radius: 5px;
+}
+
+/* Content Portion of Webpage */
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+}
+
+/* Ways $1 can Improve your Life */
+.content-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 40px 0px;
+}
+
+/* Container holding all 4 content 
+    images and subtext */
+.info-boxes{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 125px;
+}
+
+/* Setting the width to a small enoguh px, allows
+    the text to slide underneath the image */
+.info{
+    width: 160px;
+}
+
+.info img{
+    width: 160px;
+    height: 100px;
+     outline-style:solid;
+    outline-color: black;
+    outline-width: 2px;
+    border-radius: 5px;
+}
+
+.info .text{
+    text-align: center;
+}
+
+/* Quote Box */
+.quote-box{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    width: 100%;
+    /* height: 140px; */
+    padding: 75px 0px 75px 0;
+    margin-bottom: 80px;
+
+}
+
+.quote-items{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote-credit{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    align-self: flex-end;
+}
+
+/* Content Sign-up Box */
+
+.content-sign-up-box{
+    width: 50%;
+    /* height: 100px; */
+    padding: 35px 0px 35px 0px;
+    margin: 0 0 80px 0;
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-sign-up-box-txt{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    font-weight: bold;
+    justify-content: center;
+}
+
+
+.sign-up-subtxt{
+    font-size: small;
+    font-weight: normal;
+}
+
+.sign-up-content{
+    display: flex;
+    align-self: center;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-color: #e5e7eb;
+    padding: 4px 22px;
+    height: 30%;
+   
+
+}
+
+/* Footer Portion of Webpage */
+.footer{
+    /* height: 75px; */
+    padding: 35px 0px 35px 0px;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+
+
+
